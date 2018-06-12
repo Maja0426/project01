@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Rokkitt');
-
-
 /*===Basic Setup===*/
+
 body {
   padding-top: 3rem;
   background: #eee;
@@ -46,11 +45,14 @@ body #footer a:hover {
   border-bottom: 1px dotted #ffc107;
 }
 
-html p, html ul, div {
+html p,
+html ul,
+div {
   font-size: 1.1rem;
 }
 
 /*=== Navigation Bar ===*/
+
 nav ul li a {
   margin: .3rem;
   padding: .3rem;
@@ -69,6 +71,7 @@ nav ul li a:hover {
 }
 
 /*=== Main screen & Main-title ===*/
+
 .main-background {
   background: url(img/businnes.jpeg) no-repeat 40% center/cover;
   width: 100%;
@@ -76,6 +79,7 @@ nav ul li a:hover {
 }
 
 /*=== Contact Page ===*/
+
 .contact {
   display: block;
   margin-top: 3rem;
@@ -90,7 +94,9 @@ nav ul li a:hover {
 .contact-title a:hover {
   color: #666;
 }
+
 /*=== Businnes Page ===*/
+
 .title {
   position: absolute;
   top: 60%;
@@ -114,17 +120,9 @@ nav ul li a:hover {
 }
 
 /*=== Who Am I Page ===*/
-.whoami-title {
- 
-}
-.whoami-title h2 {
-font-size: 5rem;
-color: #000;
- line-height: 1;
-}
-
 
 /*=== Section2 ===*/
+
 hr {
   width: 80%;
 }
@@ -145,8 +143,8 @@ section h2 {
   color: #000 !important;
 }
 
-
 /* === Footer === */
+
 #footer {
   background: #212529;
   margin-top: 3rem;
@@ -156,13 +154,12 @@ section h2 {
   font-size: 2rem;
 }
 
- #footer .social a:hover {
+#footer .social a:hover {
   border-bottom: none;
 }
 
 .footer-bottom a {
-  color: #fff
-   !important;
+  color: #fff !important;
 }
 
 .footer-bottom a:hover {
@@ -204,11 +201,14 @@ body .footer-2nd h6 {
 }
 
 /*Progress Bar*/
+
 .progress {
   height: 20px;
   background: rgb(230, 223, 223);
 }
+
 /*=== Services ===*/
+
 .bg-custom {
   background: #343a40;
 }
