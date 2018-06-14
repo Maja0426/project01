@@ -55,6 +55,15 @@ div {
   background-attachment: fixed;
 }
 
+.textbox {
+  border: 1px solid #666;
+  background: #666;
+  box-shadow: 1px 1px 1px #666;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #eee;
+}
+
 /*=== Navigation Bar ===*/
 
 nav ul li a {
@@ -126,6 +135,11 @@ nav ul li a:hover {
 /*=== Main / Index Page ===*/
 .main-icon {
   font-size: 3rem;
+}
+
+.what-icon {
+  font-size: 10rem;
+  color: #333;
 }
 
 /*=== Section2 ===*/
@@ -217,5 +231,5 @@ body .footer-2nd h6 {
 /*=== Services ===*/
 
 .bg-custom {
-  background: #343a40;
+  background: rgb(58, 152, 189);
 }
