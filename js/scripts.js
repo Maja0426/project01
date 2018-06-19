@@ -1,3 +1,13 @@
+// Checkbox inactive script
+function checkFunction() {
+
+    if (document.getElementById("exampleCheck1").checked) {
+        document.getElementById("buttonCheck").disabled = false;
+    }
+}
+
+
+
 // simple file include mechanism using jquery load
 $.getScript("./js/loader.js");
 
@@ -120,3 +130,5 @@ $(function(){
         }); 
     });
 });
+
+checkFunction();

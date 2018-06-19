@@ -1,10 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Rokkitt');
 
+/*=== BACKGROUNDS ===*/
+
+.bg-image1 {
+  background: url(img/main-background.jpeg) no-repeat 40% center/cover;
+  width: 100%;
+  height: 95vh;
+}
+
+.bg-image2 {
+  background: url(img/main-background2.jpeg) no-repeat 40% center/cover;
+  width: 100%;
+  height: 95vh;
+}
+
+.bg-image3 {
+  background: url(img/main-background3.jpg) no-repeat 40% center/cover;
+  width: 100%;
+  height: 95vh;
+  opacity: .8;
+}
+
+.bg-image4 {
+  background: url(img/main-background4.jpeg) no-repeat 40% center/cover;
+  width: 100%;
+  height: 95vh;
+}
+
+.bg-image5 {
+  background: url(img/main2.jpeg) no-repeat 40% center/cover;
+  width: 100%;
+  height: 95vh;
+}
+
+.bg-image6 {
+  background: url(img/blueprint.jpeg) no-repeat 40% center/cover;
+  width: 100%;
+  height: 95vh;
+}
+
+.bg-image7 {
+  background: url(img/main-bg7.jpeg) no-repeat 80% center/cover;
+  width: 100%;
+  min-height: 95vh;
+}
+
+.bg-simple {
+  background: #eee;
+  width: 100%;
+  min-height: 95vh;
+}
+
+.main-background {
+  background: url(img/businnes.jpeg) no-repeat 40% center/cover;
+  width: 100%;
+  height: 95vh;
+}
+
 /*===Basic Setup===*/
 body {
   padding-top: 3rem;
-  background: #eee;
-  font-family: 'Roboto', sans-serif;
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+font-family: 'Roboto',
+sans-serif;
 }
 
 body h1,
@@ -130,7 +188,6 @@ nav ul li a:hover {
   color: #ffc107 !important;
   border-top: 1px dotted #ffc107;
   border-bottom: 1px dotted #ffc107;
-  transition: all 0.3s ease-in-out;
   padding: .45rem;
 }
 
@@ -140,11 +197,6 @@ nav ul li a:hover {
 
 /*=== Main screen & Main-title ===*/
 
-.main-background {
-  background: url(img/businnes.jpeg) no-repeat 40% center/cover;
-  width: 100%;
-  height: 95vh;
-}
 
 /*=== Contact Page ===*/
 
@@ -163,11 +215,15 @@ nav ul li a:hover {
   color: #666;
 }
 
+.contact u {
+  text-decoration-color: #ffc107;
+}
+
 /*=== Businnes Page ===*/
 
 .title {
   position: absolute;
-  top: 60%;
+  top: 50%;
   transform: translateY(-50%);
   left: 2%;
   right: 2%;
@@ -221,6 +277,27 @@ nav ul li a:hover {
   font-size: 10rem;
 }
 
+.why-icon2 {
+  padding-top: 2rem;
+  font-size: 8rem;
+}
+
+.fa-code {
+  color: #e54d26;
+}
+
+.fa-bold {
+  color: #563d7c;
+}
+
+.fa-css3 {
+  color: #2163af;
+}
+
+.fa-js-square {
+  color: #ffc107;
+}
+
 #logos .why-content:nth-child(even) {
   background-color:#343a40;
   color: #eee;
@@ -235,10 +312,12 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
-/*=== Section2 ===*/
-hr {
-  width: 80%;
+.why u {
+  text-decoration-color: #ffc107;
+  text-decoration-style: double;
 }
+
+/*=== Section2 ===*/
 
 .card-title {
   margin-top: 1rem;
@@ -254,6 +333,8 @@ section h2 {
 
 .section-faq a:hover {
   color: #000 !important;
+  text-decoration: underline;
+  transition: all .2s ease-in-out;
 }
 
 /* === Footer === */

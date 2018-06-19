@@ -10,9 +10,9 @@
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="style.css">
   <script defer src="js/fontawesome-all.js"></script>
+
 </head>
 
 <!-- Main screen & Main-title -->
@@ -59,7 +59,53 @@
   </nav>
 
   <!-- Main section -->
-  <div class="inc_" data-template="partials/p-contact.html"></div>
+  <section class="contact-form">
+    <div class="container">
+      <h3 class="text-center">Ha bármi kérdésed van, vagy ajánlatot szeretnél kérni:</h3>
+    </div>
+
+    <div id="contact">
+      <div class="container-fluid text-center">
+        <div class="row mt-4">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="row control-group">
+                <div class="form-group col-12 controls">
+                  <input type="text" class="form-control" placeholder="Név" id="name" required data-validation-required-message="Kérlek add meg a neved.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-12 controls">
+                  <input type="email" class="form-control" placeholder="Email cím" id="email" required data-validation-required-message="Add meg az email címed.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-12">
+                  <textarea rows="5" class="form-control" placeholder="Üzenet" id="message" required data-validation-required-message="Írj üzenetet."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" value="false" onchange="checkFunction()">
+                <label class="form-check-label" for="exampleCheck1">Elolvastam és elfogadom az
+                  <a href="./gdpr.html" target="_blank">Adatkezelési tájékoztatóban</a> foglaltakat.</label>
+              </div>
+              <br>
+              <div id="success"></div>
+              <p></p>
+              <div class="row">
+                <div class="form-group col-12 text-center">
+                  <button type="submit" disabled id="buttonCheck" class="btn btn-dark">Küldés</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <div class="inc_" data-template="partials/p-footer.html"></div>
 
 
@@ -67,14 +113,10 @@
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/wow.min.js"></script>
   <script src="js/scripts.js"></script>
   <script src="js/contact_me.js"></script>
   <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/checkbox.js"></script>
 
 </body>
 
