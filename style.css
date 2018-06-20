@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Rokkitt');
+/*
+background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rokkitt');
 /*=== BACKGROUNDS ===*/
 
 .bg-image1 {
@@ -58,11 +62,11 @@
 }
 
 /*===Basic Setup===*/
+
 body {
   padding-top: 3rem;
-background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-font-family: 'Roboto',
-sans-serif;
+  background: #eee !important;
+  font-family: 'Roboto', sans-serif;
 }
 
 body h1,
@@ -80,14 +84,7 @@ body a {
 
 body a:hover {
   text-decoration: none;
-  color: #999;
-}
-
-.active a {
-  color: #ffc107 !important;
-  border-top: 1px solid #ffc107;
-  border-bottom: 1px solid #ffc107;
-  padding: .45rem;
+  color: #00c9ff;
 }
 
 body #footer {
@@ -99,8 +96,8 @@ body #footer a {
 }
 
 body #footer a:hover {
-  color: #ffc107;
-  border-bottom: 1px dotted #ffc107;
+  color: #00c9ff;
+  border-bottom: 1px dotted #00c9ff;
 }
 
 html p,
@@ -114,17 +111,23 @@ div {
 }
 
 .textbox {
-  border: 1px solid #343a40;
-  background: #343a40;
+  border: 1px solid #00c9ff;
+  background: #00c9ff;
   box-shadow: 5px 5px 5px #343a40;
   padding: 1rem;
   font-size: 1.5rem;
-  font-weight: bold;
-  color: #eee;
+  color: #343a40;
 }
 
 .text-bold {
   font-weight: bold;
+}
+
+.text-title {
+  padding: .5rem;
+  background: #00c9ff;
+  color: #343a40;
+  box-shadow: 5px 5px 5px #343a40;
 }
 
 .main-position {
@@ -176,7 +179,6 @@ div {
   position: relative;
 }
 
-
 /*=== Navigation Bar ===*/
 
 nav ul li a {
@@ -185,18 +187,22 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffc107 !important;
-  border-top: 1px dotted #ffc107;
-  border-bottom: 1px dotted #ffc107;
-  padding: .45rem;
+  color: #000 !important;
+  background: #00c9ff;
+  padding: .5rem;
+  border-radius: 2px;
 }
 
 .navbar a {
   padding-left: .5rem !important;
 }
 
-/*=== Main screen & Main-title ===*/
-
+.active a {
+  color: #000 !important;
+  background: #00c9ff;
+  padding: .5rem;
+  border-radius: 2px;
+}
 
 /*=== Contact Page ===*/
 
@@ -213,10 +219,6 @@ nav ul li a:hover {
 
 .contact-title a:hover {
   color: #666;
-}
-
-.contact u {
-  text-decoration-color: #ffc107;
 }
 
 /*=== Businnes Page ===*/
@@ -252,12 +254,11 @@ nav ul li a:hover {
 
 .big-button a h2:hover {
   background: #343a40;
-  color: #eee !important;
-
+  color: #00c9ff !important;
 }
 
-
 /*=== Main / Index Page ===*/
+
 .main-icon {
   font-size: 3rem;
 }
@@ -299,22 +300,13 @@ nav ul li a:hover {
 }
 
 #logos .why-content:nth-child(even) {
-  background-color:#343a40;
+  background-color: #343a40;
   color: #eee;
 }
 
 #logos .why-content:nth-child(odd) {
-  background-color: #ffc107;
+  background-color: #eee;
   color: #343a40;
-}
-
-.stripe p {
-  font-weight: bold;
-}
-
-.why u {
-  text-decoration-color: #ffc107;
-  text-decoration-style: double;
 }
 
 /*=== Section2 ===*/
@@ -340,7 +332,7 @@ section h2 {
 /* === Footer === */
 
 #footer {
-  background: #212529;
+  background: #000;
   margin-top: 3rem;
 }
 
@@ -352,21 +344,13 @@ section h2 {
   border-bottom: none;
 }
 
-.footer-bottom a {
-  color: #fff !important;
-}
-
-.footer-bottom a:hover {
-  color: #ffc107 !important;
-}
-
 section .footer-bottom {
   letter-spacing: 2px;
 }
 
 body .footer-2nd {
-  background: #000;
-  color: #eee;
+  background: #00c9ff;
+  color: #000;
 }
 
 body .footer-2nd h6 {
@@ -375,13 +359,13 @@ body .footer-2nd h6 {
 
 .footer-form button {
   background: #000;
-  color: #fff;
+  color: #00c9ff;
   ;
 }
 
 .footer-form button:hover {
-  background: #000;
-  color: #ffc107;
+  background: #00c9ff;
+  color: #000;
 }
 
 .footer-form input {
@@ -405,4 +389,12 @@ body .footer-2nd h6 {
 
 .bg-custom {
   background: #3a98bd;
+}
+
+.text-blue {
+  color: #00c9ff;
+}
+
+.bg-blue {
+  background: #00c9ff;
 }
