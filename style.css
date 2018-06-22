@@ -6,7 +6,7 @@
   --secondary: #007EA7;
   --dark: #00171F;
   --light: #F0F2EF;
-  --shadow: 1px 1px 5px rgba(104, 104, 104, .8);
+  --shadow: 3px 3px 15px #343a40;
   --menu: #00A7E1;
 }
 
@@ -38,7 +38,7 @@
 .bg-image5 {
   background: url(img/business.jpg) no-repeat 40% center/cover;
   width: 100%;
-  height: 95vh;
+  height: 100vh;
 }
 
 .bg-image6 {
@@ -48,7 +48,7 @@
 }
 
 .bg-image7 {
-  background: url(img/businessman2.jpg) no-repeat 90% center/cover;
+  background: url(img/businessman.jpg) no-repeat 90% center/cover;
   width: 100%;
   min-height: 95vh;
 }
@@ -340,7 +340,7 @@ nav ul li a:hover {
 
 #logos .why-content:nth-child(even) {
   background-color: var(--primary);
-  color: #fff;
+  color: var(--light);
 }
 
 #logos .why-content:nth-child(odd) {
@@ -413,7 +413,8 @@ body .footer-2nd h6 {
 }
 
 .footer-form input:enabled {
-  background: var(--primary);
+  background: var(--dark);
+  border: 1px solid var(--menu);
   color: #fff;
 }
 
@@ -498,4 +499,12 @@ body .footer-2nd h6 {
 
 .mb-8 {
   margin-bottom: 8%;
+}
+
+.text-h2 {
+  font-size: 250%;
+}
+
+.shadow {
+  box-shadow: var(--shadow);
 }
