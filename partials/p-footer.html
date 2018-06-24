@@ -40,10 +40,11 @@
           <h6 class="text-uppercase text-blue">Hírlevél</h6>
           <form class="footer-form">
             <div class="form-group">
-              <input type="text" class="form-control" title="Add meg az email címed. Semmi spam, ígérem!" placeholder="">
+              <input type="email" name="email" id="nlmail" class="form-control" title="Add meg az email címed. Semmi spam, ígérem!" placeholder=""
+                required>
             </div>
             <div class="form-group">
-              <button class="btn text-uppercase small" data-toggle="modal" data-target="#alertModal" type="button">Feliratkozom</button>
+              <button id="subscribe" class="btn text-uppercase small" data-toggle="modal" data-target="#alertModal" type="button">Feliratkozom</button>
             </div>
           </form>
         </div>
@@ -98,3 +99,4 @@
     </div>
   </div>
 </section>
+<script src="js/subscribe.js"></script>
