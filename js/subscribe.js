@@ -1,5 +1,5 @@
 /*
-    Sand newsletter
+    Send newsletter
     **********************************************************************/
 $('#subscribe').click(function () {
   var error = false;

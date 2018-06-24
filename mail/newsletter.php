@@ -11,7 +11,7 @@ if($_POST){
         $error = true;
     
     
-    //If all ok, save emali adress in file
+    //If all ok, save email adress in file
     if($error == false){
         $file = fopen($fileName, a);
         fwrite($file, "$email,");

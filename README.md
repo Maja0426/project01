@@ -6,16 +6,18 @@
   - HTML5
   - CSS3
   - Javascript
+  - PHP (free license code)
  
 ##### Framework:
-  - [Bootstrap](https://getbootstrap.com/)
+  - [Bootstrap 4.1](https://getbootstrap.com/)
  
 ##### Additionals:
   - [Font Awesome](https://fontawesome.com/)
   - [Google fonts](https://fonts.google.com/)
   - [Font Pair](https://fontpair.co/)
+  - [Visual Hunt](https://visualhunt.com/)
 
 
 ## Live version: 
- coming soon
+ Coming soon, under construction
  
