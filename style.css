@@ -8,6 +8,8 @@
   --shadow: 3px 3px 15px #343a40
 }
 
+/*=== Base Settings ===*/
+
 .bg-image {
   background: url(img/calculator-and-pen-on-document.jpg) no-repeat 40% center/cover;
   width: 100%;
@@ -70,6 +72,12 @@ div {
   font-size: 1.1rem
 }
 
+hr {
+  border-color: #999;
+}
+
+/*=== Navigation Menu ===*/
+
 nav ul li a {
   margin: .3rem;
   padding: .3rem
@@ -96,6 +104,8 @@ nav ul li a:hover {
   border-bottom: 2px solid var(--menu);
   padding: .5rem
 }
+
+/*=== Index Page ===*/
 
 .splash-container {
   background: #1f8dd6;
@@ -209,6 +219,8 @@ nav ul li a:hover {
   color: #ffc107
 }
 
+/*=== Business Page ===*/
+
 #logos .why-content:nth-child(even) {
   background-color: var(--primary);
   color: var(--light)
@@ -257,6 +269,13 @@ nav ul li a:hover {
   color: var(--menu) !important
 }
 
+.svg-card img {
+  width: 150px;
+  height: 150px
+}
+
+/*=== FAQ Page ===*/
+
 .section-faq a {
   color: #666
 }
@@ -267,6 +286,8 @@ nav ul li a:hover {
   transition: all .2s ease-in-out
 }
 
+/*=== GDPR Page ===*/
+
 .gdpr a {
   color: var(--dark) !important
 }
@@ -275,6 +296,15 @@ nav ul li a:hover {
   text-decoration: none;
   color: var(--light) !important
 }
+
+/*=== Contact Page ===*/
+
+.contact-pic img {
+  width: 120px;
+  height: 120px
+}
+
+/*=== Footer ===*/
 
 #footer {
   background: var(--dark);
@@ -324,6 +354,16 @@ body .footer-2nd h6 {
   color: #fff
 }
 
+/* Subscribe */
+
+#mc_embed_signup {
+  margin-top: -6px;
+  background: var(--light);
+  clear: left;
+}
+
+/*=== Universal Classes ===*/
+
 .bg-fixed {
   background-attachment: fixed
 }
@@ -371,7 +411,8 @@ body .footer-2nd h6 {
 }
 
 .bg-l {
-  background: var(--light)
+  background: var(--light);
+  border: none;
 }
 
 .text-p {
@@ -413,6 +454,18 @@ body .footer-2nd h6 {
   border: 1px solid var(--dark)
 }
 
+.btn-custom-d {
+  border: 1px solid var(--menu);
+  color: #000;
+  background: var(--menu)
+}
+
+.btn-custom-d:hover {
+  color: var(--light);
+  background: var(--primary);
+  border: 1px solid var(--primary);
+}
+
 .btn-xl {
   font-size: 150%
 }
@@ -439,7 +492,10 @@ body .footer-2nd h6 {
   justify-content: center
 }
 
-.contact-pic img {
-  width: 120px;
-  height: 120px
+.center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
 }
