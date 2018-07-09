@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Roboto|Rokkitt:500";
+@import url("https://fonts.googleapis.com/css?family=Roboto|Rokkitt:500");
 
 :root {
   --dark: #00171F;
@@ -13,13 +13,13 @@
 /*=== Base Settings ===*/
 
 .bg-image {
-  background: url(img/calculator-and-pen-on-document.jpg) no-repeat 40% center/cover;
+  background: url(/img/calculator-and-pen-on-document.jpg) no-repeat 40% center/cover;
   width: 100%;
   min-height: 95vh
 }
 
 .bg-image2 {
-  background: url(img/main1.jpeg) no-repeat 40% center/cover;
+  background: url(/img/main1.jpeg) no-repeat 40% center/cover;
   width: 100%;
   min-height: 100vh
 }

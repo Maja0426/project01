@@ -16,7 +16,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 // Create the email and send the message
 $to = 'maja@smart-bee.hu'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Weboldal Űrlap:  $name";
-$email_body = "Új üzeneted érkezett a Smart-bee weboldaladról.\n\n"."Részletek:\n\nKüldő neve: $name\n\nEmail: $email_address\n\nÜzenet:\n$message";
+$email_body = "Új üzeneted érkezett a Smart-Bee weboldaladról.\n\n"."Részletek:\n\nKüldő neve: $name\n\nEmail: $email_address\n\nÜzenet:\n$message";
 $headers = "From: noreply@smart-bee.hu\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
